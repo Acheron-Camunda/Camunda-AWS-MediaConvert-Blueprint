@@ -32,7 +32,7 @@ In this example, we’ll choose the **Transcode Video** operation. When this ope
   <img src="assets/transcode.png" alt="Transcode Video Operation">
 </p>
 
-The next step in the workflow involves monitoring the status of the job in AWS Elemental MediaConvert. The system continuously polls for the job status at regular intervals—every 10 seconds in this case. If the job status shows **PROGRESSING**, the polling continues, waiting for the job to complete.
+The next step in the workflow involves monitoring the status of the job in AWS Elemental MediaConvert. 
 
 <p align="center">
   <img src="assets/job%20status.png" alt="Job Status Monitoring">
